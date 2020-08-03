@@ -1,0 +1,94 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "Gas Prices Daily.csv",
+      "path": "Gas Prices Daily.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "Date",
+            "type": "integer",
+            "format": "default",
+            "title": "Date",
+            "description": "Gas Prices for EIA by day"
+          },
+          {
+            "name": "Price",
+            "type": "integer",
+            "format": "default",
+            "title": "Price",
+            "description": "Price for natural gas"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Gas Prices Monthly.csv",
+      "path": "Gas Prices Monthly.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "Date",
+            "type": "integer",
+            "format": "default",
+            "title": "Date",
+            "description": "Gas Prices for EIA by month"
+          },
+          {
+            "name": "Price",
+            "type": "integer",
+            "format": "default",
+            "title": "Price",
+            "description": "Price for natural gas"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Gas Prices Yearly",
+      "path": "Gas Prices Yearly.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "Date",
+            "type": "number",
+            "format": "default",
+            "title": "Date",
+            "description": "Gas Prices for EIA by year"
+          },
+          {
+            "name": "Price",
+            "type": "number",
+            "format": "default",
+            "description": "Price for natural gas",
+            "title": "Price"
+          },
+          {
+            "name": "field3",
+            "type": "string",
+            "format": "default"
+          }
+        ]
+      }
+    }
+  ],
+  "name": "Natural Gas",
+  "title": "EIA Natural Gas",
+  "description": "Data for Natural EIA Natural Gas, by day month and year",
+  "homepage": "https://github.com/eacunagon",
+  "contributors": [
+    {
+      "title": "Edvin Acuna",
+      "role": "author"
+    }
+  ],
+  "licenses": [
+    {
+      "title": "CC0"
+    }
+  ]
+}
